@@ -365,7 +365,7 @@ img {
 
 .page-footer p {
     line-height: 1.5;
-    color: var(--cloud);
+    color: var(--white);
     letter-spacing: 0.02em;
     max-width: 264px;
     margin-bottom: 16px;
