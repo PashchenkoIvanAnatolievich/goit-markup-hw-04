@@ -10,7 +10,6 @@
     --transition-props: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--slate);
@@ -49,7 +48,6 @@ img {
     margin: 0 auto;
 }
 
-/* Header */
 .page-header {
     border-bottom: 1px solid var(--cornflower);
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -68,7 +66,6 @@ img {
 .auth-nav .link { font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; color: var(--slate); text-decoration: none; transition: color var(--transition-props); }
 .auth-nav .link:hover, .auth-nav .link:focus { color: var(--ocean); }
 
-/* Hero Section */
 .hero {
     background-color: var(--navy-blue);
     padding: 188px 0;
@@ -84,7 +81,6 @@ img {
 .button.primary { font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.04em; color: var(--white); background-color: var(--iris); cursor: pointer; min-width: 169px; height: 56px; border: none; border-radius: 4px; transition: background-color var(--transition-props); }
 .button.primary:hover, .button.primary:focus { background-color: var(--ocean); }
 
-/* Features Section */
 .section { padding: 120px 0; }
 .features-list { display: flex; gap: 24px; }
 .features-list .item { flex-basis: calc((100% - 72px) / 4); }
@@ -92,35 +88,33 @@ img {
 .title { font-weight: 500; font-size: 20px; line-height: 1.2; letter-spacing: 0.02em; color: var(--navy-blue); margin-bottom: 8px; }
 .text { font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; }
 
-/* Team Section */
 .team-section { background-color: var(--cloud); }
 .section-title { font-size: 36px; line-height: 1.11; text-align: center; letter-spacing: 0.02em; text-transform: capitalize; color: var(--navy-blue); margin-bottom: 72px; }
 .team-list { display: flex; gap: 24px; }
 .team-card { background-color: var(--white); border-radius: 0px 0px 4px 4px; box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); }
 .card-content { padding: 32px 0; text-align: center; }
 .name { font-weight: 500; font-size: 20px; line-height: 1.2; letter-spacing: 0.02em; color: var(--navy-blue); margin-bottom: 8px; }
-.position { font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; margin-bottom: 8px; }
+.position { font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; margin-bottom: 16px; }
 .social-list { display: flex; justify-content: center; gap: 24px; }
 .social-link { width: 40px; height: 40px; background-color: var(--iris); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: background-color var(--transition-props); }
 .social-link:hover, .social-link:focus { background-color: var(--ocean); }
-.social-link svg { fill: var(--cloud); }
+.social-icon { fill: var(--cloud); }
 
-/* Portfolio Section */
 .portfolio-list { display: flex; flex-wrap: wrap; column-gap: 24px; row-gap: 48px; }
 .portfolio-item { flex-basis: calc((100% - 48px) / 3); transition: box-shadow var(--transition-props); }
 .portfolio-item:hover { box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); }
 .portfolio-image-wrapper { position: relative; overflow: hidden; }
 .overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: var(--iris); color: var(--cloud); font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; padding: 40px 32px; transform: translateY(100%); transition: transform var(--transition-props); }
 .portfolio-item:hover .overlay { transform: translateY(0); }
-.portfolio-item .card-content { padding: 32px 16px; border: 1px solid var(--cornflower); border-top: none; }
+.portfolio-item .card-content { padding: 32px 16px; border: 1px solid #8e8f99; }
 
-/* Footer */
 .page-footer { background-color: var(--navy-blue); padding: 100px 0; }
 .footer-container { display: flex; align-items: baseline; }
 .logo-motto { margin-right: 120px; }
 .page-footer .logo-link { display: inline-block; margin-bottom: 16px; }
 .logo-light { color: var(--cloud); }
 .page-footer .text { line-height: 1.5; color: var(--cloud); letter-spacing: 0.02em; max-width: 264px; }
+.social-media { margin-left: auto; }
 .social-title { font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; color: var(--white); margin-bottom: 16px; }
 .page-footer .social-list { gap: 16px; }
 .page-footer .social-link:hover, .page-footer .social-link:focus { background-color: #31d0aa; }
