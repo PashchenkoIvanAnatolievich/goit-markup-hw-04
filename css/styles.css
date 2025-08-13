@@ -363,12 +363,12 @@ img {
     color: var(--cloud);
 }
 
-.page-footer p {
+.page-footer .text {
     line-height: 1.5;
     color: var(--white);
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-bottom: 16px;
+    margin-bottom: 0;
 }
 
 .social-media {
