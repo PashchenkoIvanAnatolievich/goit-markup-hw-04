@@ -113,7 +113,7 @@ img {
 .logo-motto { margin-right: 120px; }
 .page-footer .logo-link { display: inline-block; margin-bottom: 16px; }
 .logo-light { color: var(--cloud); }
-.page-footer .text { line-height: 1.5; color: var(--cloud); letter-spacing: 0.02em; max-width: 264px; }
+.page-footer .text { line-height: 1.5; color: var(--cloud); letter-spacing: 0.02em; max-width: 264px; margin-bottom: 16px; }
 .social-media { margin-left: auto; }
 .social-title { font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; color: var(--white); margin-bottom: 16px; }
 .page-footer .social-list { gap: 16px; }
