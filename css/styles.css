@@ -363,12 +363,12 @@ img {
     color: var(--cloud);
 }
 
-.page-footer .text {
+.page-footer .logo-motto .text {
     line-height: 1.5;
     color: var(--white);
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-bottom: 0;
+    margin-bottom: 16px;
 }
 
 .social-media {
